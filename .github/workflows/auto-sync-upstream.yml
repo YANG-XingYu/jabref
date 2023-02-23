@@ -13,5 +13,7 @@ jobs:
     steps:
       - uses: tgymnich/fork-sync@v1.8
         with:
-          base: main
+          owner: JabRef
+          repo: jabref
           head: main
+          base: main
