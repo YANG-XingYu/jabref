@@ -78,7 +78,7 @@ public class INSPIREFetcher implements SearchBasedParserFetcher, EntryBasedFetch
         // Remove braces around content of "title" field
         new FieldFormatterCleanup(StandardField.TITLE, new RemoveBracesFormatter()).cleanup(entry);
 
-        new FieldFormatterCleanup(StandardField.TITLE, new LatexToUnicodeFormatter()).cleanup(entry);
+        // new FieldFormatterCleanup(StandardField.TITLE, new LatexToUnicodeFormatter()).cleanup(entry);
     }
 
     @Override
